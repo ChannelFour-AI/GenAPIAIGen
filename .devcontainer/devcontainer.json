@@ -10,7 +10,7 @@
 	//GOOGLE_APPLICATION_CREDENTIALS="/app/.config/gcloud/application_default_credentials.json"
 	"containerEnv": {
 		"GOOGLE_APPLICATION_CREDENTIALS": "/app/.config/gcloud/application_default_credentials.json", //Passed up from the devs local env. gcloud not installed in the image
-		"GOOGLE_CLOUD_PROJECT": "c4ai-api-dev" // Force to a dev project
+		"GOOGLE_CLOUD_PROJECT": "replace-me"
 	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
